@@ -1,0 +1,110 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Tt]extureSizeReport/
+
+# MemoryCaptures can get excessive in size.
+# They also could contain extremely sensitive data
+/[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+/Builds/
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+obj
+/*.suo
+Assets/StreamingAssets/Music/
+Assets/StreamingAssets/Music.meta
+Xcode
+Xcode/*
+Assets/Resources/cache.xml
+Assets/Resources/cache.xml.meta
+.vs
+Thumbs.db
+Thumbs.db.meta
+/.idea/
+Assets/Plugins/Editor/JetBrains/
+Assets/Plugins/Editor/JetBrains.meta
+.vscode/
+/game.cfg
+Assets/hda/
+Assets/hda.meta
+Assets/roads/
+Assets/roads.meta
+Assets/HoudiniEngineAssetCache/
+Assets/HoudiniEngineAssetCache.meta
+Assets/HoudiniTools/
+Assets/HoudiniTools.meta
+Assets/Plugins/HoudiniEngineUnity/
+Assets/Plugins/HoudiniEngineUnity.meta
+heu_settings.ini
+heu_session.txt
+Assets/Prototype/MointainDrive/tmp_geo/l_01_HI.fbx
+Assets/Prototype/MointainDrive/tmp_geo/l_01_HI.fbx.meta
+Assets/Scenes/Tracks/Prototype/
+Assets/Scenes/Tracks/Prototype.meta
+Assets/Scripts/Utils/ERTrafficConverter/ImportFromHoudini.cs
+Assets/Scripts/Utils/ERTrafficConverter/ImportFromHoudini.cs.meta
+Assets/[Hh]oudini.meta
+
+#=== FMOD ===
+# Never ignore DLLs in the FMOD subfolder.
+!/[Aa]ssets/Plugins/FMOD/**/lib/*
+
+# Don't ignore images and gizmos used by FMOD in the Unity Editor.
+!/[Aa]ssets/Gizmos/FMOD/*
+!/[Aa]ssets/Editor Default Resources/FMOD/*
+
+# Log files can be ignored.
+fmod_editor.log
+
+# Ignore the Cache folder since it is updated locally.
+/[Aa]ssets/Plugins/FMOD/Cache/*
+Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
+Assets/Plugins/FMOD/Resources/FMODStudioCache.asset.meta
+#=== FMOD ===
+
+# Ignore Addressables
+/[Aa]ssets/AddressableAssetsData/Windows.meta
+/[Aa]ssets/AddressableAssetsData/Windows
+
+/[Uu]ser[Ss]ettings/
+
+*.DS_Store
+CodeCoverage
+Logs/
+player_data.json
+ServerData
+Assets/Plugins/FMOD/Cache
+Assets/AssetBundles/GooglePlayAssetDelivery/Build
+Assets/AssetBundles/AppleOnDemandResources/Build
+
+Assets/StreamingAssets/WorldStreaming/*
+Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+Assets/StreamingAssets/aa
+Assets/StreamingAssets/aa.meta
+Assets/GeneratedLocalRepo/
+Assets/GeneratedLocalRepo.meta
+Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml
+Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml.meta
+Assets/AddressableAssetsData/link.xml
+Assets/AddressableAssetsData/link.xml.meta
+SerializedBuildInfo
+*.sln.DotSettings.user
+Assets/Resources/BuildFlowSettings.asset
+Assets/Resources/BuildFlowSettings.asset.meta
+Assets/GitInfoAsset.asset
+Assets/AddressableAssetsData/Reports/*.txt.meta
+

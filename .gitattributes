@@ -1,0 +1,35 @@
+Assets/Firebase/Plugins/*.bundle filter=lfs diff=lfs merge=lfs -text
+Assets/Firebase/Plugins/*.dll filter=lfs diff=lfs merge=lfs -text
+Assets/Firebase/Plugins/*.so filter=lfs diff=lfs merge=lfs -text
+Assets/Art/Subscenes/PlacementData/*.placementStorage filter=lfs diff=lfs merge=lfs -text
+Assets/Art/Subscenes/**/*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Art/**/*.png filter=lfs diff=lfs merge=lfs -text
+Assets/Art/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+Assets/Art/**/*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Art/**/*.placement filter=lfs diff=lfs merge=lfs -text
+Assets/Art/**/*.exr filter=lfs diff=lfs merge=lfs -text
+Assets/**/*.png filter=lfs diff=lfs merge=lfs -text
+Assets/**/*.[Pp][Nn][Gg] filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Gg][Aa] filter=lfs diff=lfs merge=lfs -text
+*.[Ff][Bb][Xx] filter=lfs diff=lfs merge=lfs -text
+*.[Dd][Ll][Ll] filter=lfs diff=lfs merge=lfs -text
+*.[Jj][Aa][Rr] filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Tt][Ff] filter=lfs diff=lfs merge=lfs -text
+*.[Uu][Ss][Dd] filter=lfs diff=lfs merge=lfs -text
+*.[Oo][Tt][Ff] filter=lfs diff=lfs merge=lfs -text
+*.[Ee][Xx][Rr] filter=lfs diff=lfs merge=lfs -text
+*.[Bb][Aa][Nn][Kk] filter=lfs diff=lfs merge=lfs -text
+*.[Aa] filter=lfs diff=lfs merge=lfs -text
+*.[Dd][Yy][Ll][Ii][Bb] filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Dd][Bb] filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Ss][Dd] filter=lfs diff=lfs merge=lfs -text
+Packages/*.tgz filter=lfs diff=lfs merge=lfs -text
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.mat merge=unityyamlmerge
+*.controller merge=unityyamlmerge
+*.anim merge=unityyamlmerge
+ProjectSettings/BashCommands/run/mc.exe filter=lfs diff=lfs merge=lfs -text
+ProjectSettings/BashCommands/run/mc filter=lfs diff=lfs merge=lfs -text
