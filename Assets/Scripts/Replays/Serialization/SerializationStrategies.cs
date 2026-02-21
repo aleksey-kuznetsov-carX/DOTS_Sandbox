@@ -31,9 +31,9 @@ namespace Replays
 			m_strategies[typeof(half2)] = new Half2SerializationStrategy();
 			
 			//ReplayStreamData
-			m_strategies[typeof(FloatReplayStreamData)] = new FloatReplayStreamDataSerializationStrategy();
-			m_strategies[typeof(Float3ReplayStreamData)] = new Float3ReplayStreamDataSerializationStrategy();
-			m_strategies[typeof(QuaternionReplayStreamData)] = new Float3ReplayStreamDataSerializationStrategy();
+			//m_strategies[typeof(FloatReplayStreamData)] = new FloatReplayStreamDataSerializationStrategy();
+			//m_strategies[typeof(Float3ReplayStreamData)] = new Float3ReplayStreamDataSerializationStrategy();
+			//m_strategies[typeof(QuaternionReplayStreamData)] = new Float3ReplayStreamDataSerializationStrategy();
 		}
 
 		public static ISerializationStrategy<T> GetStrategy<T>() where T : unmanaged
